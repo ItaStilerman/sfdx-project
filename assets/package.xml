@@ -30,7 +30,7 @@
   <types>
     <members>Broker__c</members>
     <members>Property__c</members>
-    <members>Sample_Data_Import</members>
+   <!--<members>Sample_Data_Import</members>-->
     <name>CustomTab</name>
   </types>
   <types>

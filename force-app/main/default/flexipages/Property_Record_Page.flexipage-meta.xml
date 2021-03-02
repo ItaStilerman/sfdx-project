@@ -69,7 +69,7 @@
         <name>facet-b6179bf2-9b0b-4965-9236-b467ab38abb6</name>
         <type>Facet</type>
     </flexiPageRegions>
-    <flexiPageRegions>
+  <!--  <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentName>MortgageCalcWithAmortization</componentName>
@@ -77,7 +77,7 @@
         </itemInstances>
         <name>facet-10e2e3cd-2f87-49df-8e5d-58d632b4c7d3</name>
         <type>Facet</type>
-    </flexiPageRegions>
+    </flexiPageRegions>-->
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
@@ -124,10 +124,10 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
+                <!--<componentInstanceProperties>
                     <name>body</name>
                     <value>facet-10e2e3cd-2f87-49df-8e5d-58d632b4c7d3</value>
-                </componentInstanceProperties>
+                </componentInstanceProperties>-->
                 <componentInstanceProperties>
                     <name>title</name>
                     <value>Mortgage</value>
@@ -171,7 +171,7 @@
                 <componentName>RecordMap</componentName>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
+       <!-- <itemInstances>
             <componentInstance>
                 <componentName>PropertyCarousel</componentName>
             </componentInstance>
@@ -184,7 +184,7 @@
                 </componentInstanceProperties>
                 <componentName>SimilarProperties</componentName>
             </componentInstance>
-        </itemInstances>
+        </itemInstances>-->
         <mode>Replace</mode>
         <name>sidebar</name>
         <type>Region</type>

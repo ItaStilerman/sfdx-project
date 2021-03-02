@@ -4,7 +4,7 @@
         <application>DreamHouse</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <classAccesses>
+    <!--<classAccesses>
         <apexClass>BotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -183,8 +183,8 @@
     <classAccesses>
         <apexClass>SlackOpportunityPublisherTest</apexClass>
         <enabled>true</enabled>
-    </classAccesses>
-    <fieldPermissions>
+    </classAccesses>-->
+    <!--<fieldPermissions>
         <editable>true</editable>
         <field>Bot_Command__c.Active__c</field>
         <readable>true</readable>
@@ -203,12 +203,7 @@
         <editable>true</editable>
         <field>Bot_Command__c.Sample_Utterance__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Broker__c.Broker_Id__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
+    </fieldPermissions>-->
     <fieldPermissions>
         <editable>true</editable>
         <field>Broker__c.Email__c</field>
@@ -239,7 +234,7 @@
         <field>Broker__c.Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
+   <!-- <fieldPermissions>
         <editable>true</editable>
         <field>Property_Favorite__c.Property__c</field>
         <readable>true</readable>
@@ -248,16 +243,11 @@
         <editable>true</editable>
         <field>Property_Favorite__c.User__c</field>
         <readable>true</readable>
-    </fieldPermissions>
+    </fieldPermissions>-->
     <fieldPermissions>
         <editable>true</editable>
         <field>Property__c.Address__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Property__c.Asking_Price__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -335,16 +325,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Property__c.Predicted_Days_on_Market__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Property__c.Price_Sold__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Property__c.Price__c</field>
         <readable>true</readable>
@@ -391,7 +371,7 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>dreamhouse</label>
-    <objectPermissions>
+    <!--<objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -399,7 +379,7 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Bot_Command__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
+    </objectPermissions>-->
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -409,7 +389,7 @@
         <object>Broker__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
+    <!--<objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -417,7 +397,7 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Property_Favorite__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
+    </objectPermissions>-->
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -428,31 +408,23 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>
-        <tab>Bot_Command__c</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
-    <tabSettings>
         <tab>Broker__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
-    <tabSettings>
+  <!--  <tabSettings>
         <tab>Einstein_Vision</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
         <tab>Property_Explorer</tab>
         <visibility>Visible</visibility>
-    </tabSettings>
+    </tabSettings
     <tabSettings>
         <tab>Property_Finder</tab>
         <visibility>Visible</visibility>
-    </tabSettings>
+    </tabSettings>Sample_Data_Import
     <tabSettings>
         <tab>Property__c</tab>
         <visibility>Visible</visibility>
-    </tabSettings>
-    <tabSettings>
-        <tab>Sample_Data_Import</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
+    </tabSettings>-->
 </PermissionSet>
